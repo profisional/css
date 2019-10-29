@@ -1,0 +1,473 @@
+@keyframes reqUpdateBlink{
+0% {
+background-color: #e70a0a;
+}
+50% {
+background-color: #fbb306;
+}
+100% {
+background-color: #e70a0a;
+}
+}
+.postBlog .content{
+font-family:IRANSans !important;
+font-size:13px !important;
+line-height:25px;
+}
+.post table{
+max-width: 500px;
+padding: 0px;
+margin: auto;
+border: 1px solid #dadada;
+border-collapse: collapse;
+box-shadow: 0px 3px 8px #E3E3E3;
+}
+.post tr{
+transition:0.5s;
+}
+.post tr:hover{
+
+}
+.post tr:nth-child(even){
+background:#F3F3F3;
+padding:0;
+margin:0;
+}
+.post tr:nth-child(odd){
+background:#F9F9F9;
+}
+.post td {
+padding:5px 10px;
+margin:0;
+}
+.breadcrumbs > span:last-child{
+display:none;
+}
+.post .metaPost{
+height:230px;
+}
+.post table {
+    font-size: 13px;
+}
+.metaPost .metaBox{
+padding: 23px 0px;
+}
+
+.post .content{
+width:580px;
+padding:10px;
+text-align:justify;
+font-family: IRANSans,B Yekan,Tahoma;
+background:#fff;
+font-size:13px;
+line-height:25px;
+color:#202020;
+font-weight: 300;
+}
+.post .content ul{
+margin:5px 15px;
+}
+.postEnd{
+background:#5d5d5d;
+color:#fff;
+float:right;
+width:590px;
+padding:5px;
+display:block;
+}
+.linkconvertor{
+width:46px;
+height:34px;
+margin:10px;
+position:relative;
+float:left;
+}
+#convertToVas{
+cursor:pointer;
+position:absolute;
+left:0;
+z-index:2;
+}
+#convertToPub{
+cursor:pointer;
+display:none;
+position:absolute;
+left:0;
+z-index:1;
+}
+.convertToVasHint{
+background:#A7A7A7;
+color: #FFF;
+margin: 14px 5px;
+padding: 0px 10px;
+display: inline;
+float: left;
+font-family: IRANSans;
+font-size: 12px;
+word-spacing: 2px;
+border-radius: 3px;
+display:none;
+cursor:pointer;
+}
+.downloadBox{
+background:#F8F8F8;
+float:right;
+width:590px;
+padding:5px;
+display:block;
+color: #2D2D2D;
+font-family: IRANSans;
+font-size: 12px;
+-webkit-box-shadow: inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
+-moz-box-shadow:    inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
+box-shadow:         inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
+}
+.downloadBox p{
+padding-right:5px;
+}
+.downloadBox a{
+    background: none repeat scroll 0% 0% #F3F3F3;
+    padding: 5px;
+    display: block;
+    float: right;
+    width: 570px;
+    margin: 2px 5px;
+    border: 1px solid #DEDEDE;
+    font-family: IRANSans,B Yekan,Arial !important;
+transition:0.5s;
+}
+.downloadBox strong{
+    font-family: IRANSans,B Yekan,Arial !important;
+font-weight:normal !important;
+}
+.downloadBox a:before{
+font-family:"FontAwesome";
+content:"\f019";
+padding: 0px 5px 0px 5px;
+transition:0.5s;
+}
+.downloadBox a:hover{
+background: #4B4B4B !important;
+color:#fff;
+}
+.downloadBox a:focus,.downloadBox a:visited{
+background:#E9E9E9;
+}
+.downloadBox a:visited:before{
+color:gold;
+}
+.downloadBox .title{
+display: inline-block;
+padding: 5px 10px;
+background:#151D5C;
+color: #EDEDED;
+font-family: IRANSans,B Yekan;
+font-weight:normal;
+font-size: 14px;
+word-spacing:3px;
+margin: 3px 3px 10px 3px;
+padding: 5px 10px 5px 15px;
+}
+.downloadBox .title:before{
+font-family:"FontAwesome";
+content:"\f0c9";
+margin: 0 5px 0 10px;
+}
+.hintBox{
+color: #F9ED00;
+word-spacing: 2px;
+float: right;
+width: 590px;
+padding: 5px;
+display: block;
+font-family: IRANSans,B Yekan;
+background: none repeat scroll 0% 0% #151D5C;
+text-align:center;
+}
+
+
+.dlPass{
+float: right;
+font-size: 11px;
+text-indent: 15px;
+font-family: IRANSans,Tahoma;
+padding: 7px;
+text-shadow: 1px 1px 3px #121212;
+}
+
+.help,.report,.helpGame{
+padding:5px 25px;
+font-family:IRANSans,B Yekan,tahoma;
+font-size:10px;
+float:left;
+margin:0 3px;
+color:#fff;
+background:#ad06d7;
+cursor:pointer;
+}
+
+.help{
+background:#0677d7;
+}
+.helpGame{
+background:red;
+display:none;
+}
+.postRed .helpGame{
+display:inline;
+}
+.postRed .help, .postRed .report,.postRed .helpGame , .postRed #sendRequestUpdateButton{
+	padding: 5px 12px !important;
+}
+.helpBox{background:#353535;color:#FFF;display:none;float:right;font-family:IRANSans,B Yekan , Arial;line-height:26px;padding:10px;text-align:justify;width:580px}
+.helpBox ul{    list-style-type: none;    margin: 0;    padding:0;}
+.helpBox li{    padding: 4px;    margin:1px 0;    transition:0.3s;}
+.helpBox li:hover{    background:#2A2929;}
+.helpBox li:before{    font-family:"FontAwesome";    content:"\f059";    margin: 8px;    color:gold;}
+
+.sysRequirement{
+width:298px;
+height:70px;
+line-height:70px;
+margin-left:4px;
+background:#C80505;
+float:right;
+color:#fff;
+margin-bottom:10px;
+}
+.sysRequirement:before{
+font-family:"FontAwesome";
+content:"\f0c9";
+font-size:30px;
+color:#fff;
+line-height:70px;
+float:right;
+background:red;
+padding:0 15px;
+}
+.sysRequirement h3,.helpBoxGame h3{
+font-family: IRANSans,B Yekan;
+font-weight: normal;
+font-size: 15px;
+margin: 0px 15px;
+text-shadow: 0px 1px 1px #575555;
+padding: 0px;
+color: #FFF;
+float: right;
+}
+.helpBoxGame{
+width:298px;
+height:70px;
+line-height:70px;
+float:right;
+background: rgb(0, 90, 179) none repeat scroll 0% 0%;
+color:#fff;
+margin-bottom:10px;
+}
+.helpBoxGame:before{
+font-family:"FontAwesome";
+font-size:30px;
+content:"\f05a";
+color:#fff;
+float:right;
+line-height:70px;
+background: #054A98;
+padding:0 15px;
+}
+.sharing{	
+float: right;
+width: 590px;
+padding: 5px;
+display: block;
+background: #eaeaea;
+font-family:IRANSans;
+}
+.tinyURL{
+	float:right;
+	margin-right:22px;
+	font-size: 11px;
+	margin-top:1px;
+	}
+	.sharing input[type=text]{
+		direction:ltr;
+		font-family:IRANSans,Tahoma;
+		font-size:11px;
+		color:#282828;
+		border: 1px solid rgb(201, 201, 201);
+		padding:2px 5px;
+		height:24px;
+		width:180px;
+		background: #f3f3f3;
+		}
+		.sharing input[type=text]:hover ,.sharing input[type=text]:focus {	
+		background-color: #7A7575;	color:#fff;}
+		.socialNetwork{	float:left;	padding-top:3px;	margin-left:3px;}
+		.socialNetwork a{	margin-right: 5px;}
+		.tags{	display:none;	font-size: 11px;		font-family: IRANSans,tahoma;		color: rgb(186, 183, 183); margin-bottom:10px;	}
+		.tags a{
+			background: rgb(243, 243, 243) none repeat scroll 0% 0%;
+color: rgb(54, 44, 44);
+border: 1px solid rgba(222, 222, 222, 0.38);
+padding: 0px 6px 2px;}
+.tags a:hover{	background:rgb(237, 237, 237) none repeat scroll 0% 0%;}
+
+
+.post h2 , .post h3 ,.post h4 ,.post h5 ,.post h6{
+	font-family:IRANSans;
+	
+}
+.post h2{
+	font-size: 16px;
+}
+.post h3{
+	font-size: 14px;
+}
+.post h4{
+	font-size: 12px;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+
+/* Update Request */
+
+#sendRequestUpdateButton{
+padding: 5px 25px;
+font-family: IRANSans,B Yekan,tahoma;
+font-size: 10px;
+float: left;
+margin: 0 3px;
+color: #fff;
+background: #d70666;
+cursor: pointer;
+animation-name: reqUpdateBlink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+
+}
+.sendUpdateRequest{
+float: right;
+height: 180px;
+width: 91.6%;
+color: #232020;
+display:none;
+background: #fff;
+font-family: IRANSans,B Yekan,tahoma;
+font-size: 12px;
+padding: 15px 25px;
+}
+.sendUpdateRequest textarea{
+font-family:IRANSans;
+font-size:12px;
+}
+#submitSendRequest{
+padding: 3px 15px;
+font-family: IRANSans,B Yekan,tahoma;
+font-size: 12px;
+margin: 0 3px;
+color: #fff;
+background: #158c59;
+border: 1px solid #068630;
+cursor: pointer;
+margin-top: 20px;
+border-radius: 3px;
+}
+#cancelSendRequest{
+padding: 0px 5px;
+float: left;
+font-size: 20px;
+color: #5d5d5d;
+cursor: pointer;
+margin-left: -11px;
+background: #fff;
+border: 1px solid #fff;
+}
+#updateRequestSubmitMsg{
+margin-top: 80px;
+margin-right: 150px;
+font-size: 13px;
+color: #5A7B21;
+}
+

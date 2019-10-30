@@ -118,9 +118,6 @@ display:block;
 color: #2D2D2D;
 font-family: IRANSans;
 font-size: 12px;
--webkit-box-shadow: inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
--moz-box-shadow:    inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
-box-shadow:         inset 0px 0px 14px 5px rgba(50, 50, 50, 0.1);
 }
 .downloadBox p{
 padding-right:5px;
